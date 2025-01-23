@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AIML Department Library</title>
+</head>
+<body>
+    <h1>AIML Department Library</h1>
+    <h2>Book Details</h2>
+    <table border="1">
+        <tr>
+            <th>Book ID</th>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Quantity</th>
+        </tr>
+        {% for book in books %}
+        <tr>
+            <td>{{ book[0] }}</td>
+            <td>{{ book[1] }}</td>
+            <td>{{ book[2] }}</td>
+            <td>{{ book[3] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h2>Request a Book</h2>
+    <form action="/request_book" method="POST">
+        <label for="student_name">Student Name:</label>
+        <input type="text" id="student_name" name="student_name" required><br><br>
+
+        <label for="prn">PRN:</label>
+        <input type="number" id="prn" name="prn" required><br><br>
+
+        <label for="book_id">Book:</label>
+        <select name="book_id" id="book_id" required>
+            {% for book in books %}
+            <option value="{{ book[0] }}">{{ book[1] }} ({{ book[3] }} available)</option>
+            {% endfor %}
+        </select><br><br>
+
+        <input type="submit" value="Request Book">
+    </form>
+</body>
+</html>

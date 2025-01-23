@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Requests</title>
+</head>
+<body>
+    <h1>All Book Requests</h1>
+    <table border="1">
+        <tr>
+            <th>Request ID</th>
+            <th>Student Name</th>
+            <th>PRN</th>
+            <th>Book Name</th>
+            <th>Author</th>
+        </tr>
+        {% for request in requests %}
+        <tr>
+            <td>{{ request[0] }}</td>
+            <td>{{ request[1] }}</td>
+            <td>{{ request[2] }}</td>
+            <td>{{ request[3] }}</td>
+            <td>{{ request[4] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
