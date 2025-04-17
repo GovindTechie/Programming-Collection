@@ -2,18 +2,15 @@
 <!-- Repository Badges -->
 <p align="center">
   <a href="https://github.com/GovindTechie/Programming-Collection/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/GovindTechie/Programming-Collection/ci.yml?branch=main" alt="CI Status" />
+    <img src="https://img.shields.io/github/actions/workflow/status/GovindTechie/Programming-Collection/ci.yml?branch=master" alt="CI Status" />
   </a>
   <a href="https://github.com/GovindTechie/Programming-Collection/releases">
     <img src="https://img.shields.io/github/v/release/GovindTechie/Programming-Collection" alt="Release Version" />
   </a>
-  <a href="https://codecov.io/gh/GovindTechie/Programming-Collection">
-    <img src="https://img.shields.io/codecov/c/github/GovindTechie/Programming-Collection" alt="Code Coverage" />
-  </a>
   <a href="https://github.com/GovindTechie/Programming-Collection/issues">
     <img src="https://img.shields.io/github/issues/GovindTechie/Programming-Collection" alt="Open Issues" />
   </a>
-  <a href="https://github.com/GovindTechie/Programming-Collection/blob/main/LICENSE">
+  <a href="https://github.com/GovindTechie/Programming-Collection/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/GovindTechie/Programming-Collection" alt="License" />
   </a>
 </p>
@@ -85,7 +82,7 @@ See CHANGELOG.md for release notes and updates.
 MIT © GovindTechie — see LICENSE
 
 ## Contact
-Maintainer: GovindTechie • Twitter: @GovindTechie • Email: govind@example.com
+Maintainer: GovindTechie • Email: khedkargovind60@gmail.com
 
 === File: C_Language/README.md ===
 # C Language Examples
