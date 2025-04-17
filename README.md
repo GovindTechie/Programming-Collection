@@ -1,127 +1,186 @@
+=== File: README.md ===
 <!-- Repository Badges -->
 <p align="center">
   <a href="https://github.com/GovindTechie/Programming-Collection/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/GovindTechie/Programming-Collection/ci.yml?branch=master" alt="CI Status" />
+    <img src="https://img.shields.io/github/actions/workflow/status/GovindTechie/Programming-Collection/ci.yml?branch=main" alt="CI Status" />
+  </a>
+  <a href="https://github.com/GovindTechie/Programming-Collection/releases">
+    <img src="https://img.shields.io/github/v/release/GovindTechie/Programming-Collection" alt="Release Version" />
+  </a>
+  <a href="https://codecov.io/gh/GovindTechie/Programming-Collection">
+    <img src="https://img.shields.io/codecov/c/github/GovindTechie/Programming-Collection" alt="Code Coverage" />
   </a>
   <a href="https://github.com/GovindTechie/Programming-Collection/issues">
     <img src="https://img.shields.io/github/issues/GovindTechie/Programming-Collection" alt="Open Issues" />
   </a>
-  <a href="https://github.com/GovindTechie/Programming-Collection/blob/master/LICENSE">
+  <a href="https://github.com/GovindTechie/Programming-Collection/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/GovindTechie/Programming-Collection" alt="License" />
   </a>
 </p>
 
 # 📚 Programming‑Collection
+Curated examples & mini‑projects in C, C++, Java, JavaScript, and Python—perfect for learners, interview prep, or quick reference.
 
-A curated set of programming examples and mini‑projects, organized by language and topic. Perfect for learning and reference!
+## 📑 Table of Contents
+- [About](#about)
+- [Demo](#demo)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [Roadmap](#roadmap)
+- [Changelog](#changelog)
+- [License](#license)
+- [Contact](#contact)
 
----
+## About
+This repo collects small, well‑documented code examples across multiple languages. Each top‑level folder has its own README showing how to run the examples.
 
-## 📂 Contents
+## Demo
+![Flask Library Management Demo](./assets/flask-demo.gif)
 
-- [C++ Language](#cpp_language)  
-- [C Language](#c_language)  
-- [Java GUI Applications](#javagui_application)  
-- [Java Servlets & JDBC](#javaservletjdbc)  
-- [Java Language](#java_language)  
-- [JavaScript Projects](#javascript_projects)  
-- [Python Language](#python_language)  
-- [Flask Library Management](#flasklibrarymanagement)  
-
----
-
-### 📘 CPP_Language  
-Folder: `CPP_Language`  
-• OOP (classes, inheritance, polymorphism)  
-• Templates, STL demos, file I/O, algorithms  
-
----
-
-### 📘 C_Language  
-Folder: `C_Language`  
-• Data structures (linked lists, stacks, queues)  
-• Pointers and dynamic memory  
-• File handling & low‑level programming  
-
----
-
-### 📘 JavaGUI_Application  
-Folder: `JavaGUI_Application`  
-• Swing & JavaFX UI examples  
-• Layouts, controls, event handling  
-
----
-
-### 📘 JavaServlet&JDBC  
-Folder: `JavaServlet&JDBC`  
-• Java Servlets for dynamic web pages  
-• JDBC CRUD with MySQL/SQLite  
-
----
-
-### 📘 Java_Language  
-Folder: `Java_Language`  
-• Core Java: OOP, interfaces, exceptions  
-• Multithreading & concurrency  
-• Collections, Streams & Lambdas (Java 8+)  
-
----
-
-### 📘 JavaScript_Projects  
-Folder: `JavaScript`  
-• DOM manipulation & events  
-• ES6+ features, async/await  
-• Mini apps (to‑do list, calculator)  
-• Fetch API & JSON integration  
-
----
-
-### 📘 Python_Language  
-Folder: `Python_Language`  
-• Data analysis: pandas, NumPy  
-• Visualization: matplotlib  
-• Web scraping & automation  
-• Algorithmic challenges  
-
----
-
-### 📘 FlaskLibraryManagement  
-Folder: `FlaskLibraryManagement`  
-• RESTful backend with Flask  
-• HTML/CSS (Bootstrap) frontend  
-• Database integration (SQLite/MySQL)  
-
----
-
-## 🚀 Getting Started
-
-1. **Clone** the repo  
+## Getting Started
+1. **Clone** the repo:
    ```bash
    git clone https://github.com/GovindTechie/Programming-Collection.git
    cd Programming-Collection
    ```
-2. **Explore** folders and open any `.cpp`/`.c`/`.java`/`.js`/`.py` file.  
-3. **Run** the examples (see each folder’s own README or comments).
+2. **Install dependencies** (for Flask example):
+   ```bash
+   pip install -r FlaskLibraryManagement/requirements.txt
+   ```
 
----
+## Usage
+Choose any language folder and follow its instructions. For example, to run a C example:
+```bash
+cd C_Language
+gcc linked_list.c -o linked_list && ./linked_list
+```
 
-## 🤝 Contributing
+## Folder Structure
+- CPP_Language — OOP, templates, STL, file I/O, algorithms
+- C_Language — Data structures, pointers, dynamic memory, file handling
+- JavaGUI_Application — Swing & JavaFX UIs
+- JavaServlet&JDBC — Servlets + JDBC CRUD examples
+- Java_Language — Core Java, concurrency, collections, streams
+- JavaScript — DOM, ES6+, async/await, mini apps
+- Python_Language — pandas, NumPy, matplotlib, web scraping
+- FlaskLibraryManagement — RESTful Flask backend + Bootstrap frontend
 
-Contributions welcome!  
+## Contributing
+We welcome contributions! Please read CONTRIBUTING.md and follow these steps:
+1. Fork the repo & create a branch (`git checkout -b feature/name`)
+2. Add or improve examples, update docs
+3. Submit a Pull Request
 
-- Fork & branch (`git checkout -b feature/XYZ`)  
-- Add or improve examples  
-- Commit (`git commit -m "Add XYZ in C++"`)  
-- PR for review  
+## Roadmap
+- Add Ruby and Go examples
+- Dockerize select projects
+- Expand AI/ML demos in Python
 
-Please follow existing naming conventions.
+## Changelog
+See CHANGELOG.md for release notes and updates.
 
----
+## License
+MIT © GovindTechie — see LICENSE
 
-## 📜 License
+## Contact
+Maintainer: GovindTechie • Twitter: @GovindTechie • Email: govind@example.com
 
-This project is MIT‑licensed. See [LICENSE](LICENSE).
+=== File: C_Language/README.md ===
+# C Language Examples
 
----
+This folder contains small C programs demonstrating:
+- Data structures: linked lists, stacks, queues (linked_list.c, stack.c)
+- Pointers & memory: malloc_demo.c, pointer_arith.c
+- File I/O: file_read_write.c, binary_io.c
 
-Happy coding! 💻✨
+## Usage
+Compile and run any example:
+```bash
+gcc linked_list.c -o linked_list && ./linked_list
+```
+
+## Programs
+| File              | Description                    |
+|-------------------|--------------------------------|
+| linked_list.c     | Singly & doubly linked lists   |
+| stack.c           | Array- and pointer-based stack |
+| pointer_arith.c   | Demonstrates pointer arithmetic|
+| ...               | ...                            |
+
+=== File: CPP_Language/README.md ===
+# C++ Language Examples
+
+- OOP: classes.cpp, inheritance.cpp, polymorphism.cpp
+- Templates & STL: vector_demo.cpp, map_usage.cpp
+- File I/O: file_streams.cpp
+
+## Usage
+```bash
+g++ classes.cpp -o classes && ./classes
+```
+
+## Programs
+| File             | Description          |
+|------------------|----------------------|
+| inheritance.cpp  | Base & derived demo  |
+| vector_demo.cpp  | Vector operations    |
+| ...              | ...                  |
+
+=== File: JavaScript/README.md ===
+# JavaScript Projects
+
+- DOM & Events: dom_events.html, event_handlers.js
+- ES6+: modules_demo.js, async_await.js
+- Mini Apps: todo_app/, calculator/
+
+## Usage
+Open index.html in your browser or serve via Live Server.
+
+=== File: FlaskLibraryManagement/README.md ===
+# Flask Library Management
+
+A simple library system with:
+- RESTful Flask backend (app.py, routes.py)
+- Bootstrap frontend (templates/, static/)
+- SQLite integration
+
+## Setup
+```bash
+cd FlaskLibraryManagement
+pip install -r requirements.txt
+flask run
+```
+
+Access at http://localhost:5000
+
+=== File: CONTRIBUTING.md ===
+# Contributing to Programming‑Collection
+
+Thank you for considering a contribution! Please follow these steps:
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/YourFeature`)
+3. Add or update examples and tests
+4. Update relevant README.md
+5. Submit a pull request
+
+Please read our Code of Conduct in CODE_OF_CONDUCT.md.
+
+=== File: CODE_OF_CONDUCT.md ===
+# Code of Conduct
+
+All participants are expected to uphold this code of conduct to maintain a welcoming community.
+* Be respectful and considerate.
+* No harassment or discrimination.
+* Report issues to the maintainers.
+
+=== File: CHANGELOG.md ===
+# Changelog
+
+## [Unreleased]
+- Initial restructure and documentation overhaul
+
+## [v0.1.0] - 2025-04-17
+- Added root and folder READMEs
+- Introduced Table of Contents, Usage & Contributing guides
