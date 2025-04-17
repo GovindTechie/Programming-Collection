@@ -11,6 +11,7 @@ Welcome to the **Programming-Collection** repository! 🎉 This repository is yo
 - [JavaGUI_Application](#javagui_application)
 - [JavaServlet&JDBC](#javaservletjdbc)
 - [Java_Language](#java_language)
+- [JavaScript] (#javaScript)
 - [Python_Language](#python_language)
 - [FlaskLibraryManagement](#flasklibrarymanagement)
 
@@ -53,6 +54,14 @@ Learn core Java programming concepts with examples on:
 
 ---
 
+### 📘 JavaScript
+Get hands-on with JavaScript through interactive and real-world projects, focusing on:
+- Core JavaScript concepts like DOM manipulation, ES6+ syntax, and asynchronous programming.
+- Frontend interactivity using HTML, CSS, and JavaScript.
+- Mini applications such as calculators, to-do lists, and dynamic web components.
+- Integration with APIs and JSON for real-time data handling.
+
+---
 ### 📘 Python_Language
 Find Python programs ranging from beginner-friendly to advanced, covering:
 - Data analysis and visualization.
